@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GeoQuiz.iml" filepath="$PROJECT_DIR$/.idea/modules/GeoQuiz.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/GeoQuiz.app.unitTest.iml" />
     </modules>
   </component>
 </project>
