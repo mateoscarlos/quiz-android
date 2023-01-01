@@ -13,4 +13,5 @@
     <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
     <string name="prevButton_description">Previous button</string>
     <string name="nextButton_description">Next button</string>
+    <string name="score">"Your final score is: "</string>
 </resources>

@@ -2841,7 +2841,6 @@ id percent
 id pin
 id position
 id postLayout
-id prev_button
 id progress_circular
 id progress_horizontal
 id question_text_view
@@ -3309,6 +3308,7 @@ string question_asia
 string question_australia
 string question_mideast
 string question_oceans
+string score
 string search_menu_title
 string status_bar_notification_info_overflow
 string true_button

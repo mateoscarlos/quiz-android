@@ -1,4 +1,4 @@
-#Wed Dec 07 02:28:46 CET 2022
+#Fri Dec 30 21:11:24 CET 2022
 base.2=C\:\\Users\\Carlos\\work\\quiz-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\10\\classes.dex
 path.2=10/classes.dex
 base.1=C\:\\Users\\Carlos\\work\\quiz-android\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex

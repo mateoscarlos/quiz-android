@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Carlos\\work\\quiz-android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "com.bignerdranch.android.geoquiz.app-mergeDebugResources-24:/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\93e1856551d2ec97497f45549ad44355\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\fa2c89658325c65350d04ba3fe6f4ba8\\transformed\\appcompat-1.4.1\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\b0f0db3c71af0ae3c77196707cdd85cf\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\Carlos\\.gradle\\caches\\transforms-3\\1dea51364f764fa2f5f5b4d20e264619\\transformed\\material-1.5.0\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,9,12,15",
                         "startColumns": "4,4,4,4,4,4,4,4",

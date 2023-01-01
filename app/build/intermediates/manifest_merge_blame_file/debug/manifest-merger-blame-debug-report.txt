@@ -7,7 +7,7 @@
 7    <uses-sdk
 8        android:minSdkVersion="21"
 8-->C:\Users\Carlos\work\quiz-android\app\src\main\AndroidManifest.xml
-9        android:targetSdkVersion="32" />
+9        android:targetSdkVersion="33" />
 9-->C:\Users\Carlos\work\quiz-android\app\src\main\AndroidManifest.xml
 10
 11    <application
@@ -15,7 +15,7 @@
 12        android:allowBackup="true"
 12-->C:\Users\Carlos\work\quiz-android\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\Carlos\.gradle\caches\transforms-3\8aa9a48ab309a6058d7da29b6c5a2179\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.7.0] C:\Users\Carlos\.gradle\caches\transforms-3\af911082a2ef4621dbf099549f214f27\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
 15-->C:\Users\Carlos\work\quiz-android\app\src\main\AndroidManifest.xml:7:9-43
@@ -47,25 +47,25 @@
 29        </activity>
 30
 31        <provider
-31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+31-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
 32            android:name="androidx.startup.InitializationProvider"
-32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+32-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
 33            android:authorities="com.bignerdranch.android.geoquiz.androidx-startup"
-33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+33-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
 34            android:exported="false" >
-34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+34-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
 35            <meta-data
-35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+35-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
 36                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+36-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
 37                android:value="androidx.startup" />
-37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\2ea2dd8e1da7b7cd2870eb21b04b6245\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+37-->[androidx.emoji2:emoji2:1.0.0] C:\Users\Carlos\.gradle\caches\transforms-3\485308c72d5704ee615ca6fec3182359\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
 38            <meta-data
-38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+38-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\7b06680debb42b5a1e3e7d4c0d7a27b0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
 39                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+39-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\7b06680debb42b5a1e3e7d4c0d7a27b0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
 40                android:value="androidx.startup" />
-40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\ee8401cefc63a669f7995fd5a1deff3b\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+40-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\Carlos\.gradle\caches\transforms-3\7b06680debb42b5a1e3e7d4c0d7a27b0\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
 41        </provider>
 42    </application>
 43

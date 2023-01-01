@@ -13,7 +13,6 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 id false_button
 id next_button
-id prev_button
 id question_text_view
 id true_button
 layout activity_main
@@ -32,5 +31,6 @@ string question_asia
 string question_australia
 string question_mideast
 string question_oceans
+string score
 string true_button
 style Theme.GeoQuiz
