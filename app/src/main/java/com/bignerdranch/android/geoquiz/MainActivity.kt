@@ -56,8 +56,8 @@ class MainActivity : AppCompatActivity() {
 
         cheatButton.setOnClickListener {
             // Start CheatActivity
+            val answer = quizViewModel.currentQuestionAnswer // Boolean: Correct answer
             // Explicit intent (cause we start an activity in own application)
-            val answer = quizViewModel.currentQuestionAnswer
             val intent = CheatActivity.newIntent(this@MainActivity, answer)
             startActivityForResult(intent, REQUEST_CODE_CHEAT)  // Child Activity will always return a result code using this call
                                                                 // Default: Activity.RESULT_CANCELED
