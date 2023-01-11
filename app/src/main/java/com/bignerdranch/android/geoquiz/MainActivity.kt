@@ -59,7 +59,8 @@ class MainActivity : AppCompatActivity() {
             // Explicit intent (cause we start an activity in own application)
             val answer = quizViewModel.currentQuestionAnswer
             val intent = CheatActivity.newIntent(this@MainActivity, answer)
-            startActivityForResult(intent, REQUEST_CODE_CHEAT)
+            startActivityForResult(intent, REQUEST_CODE_CHEAT)  // Child Activity will always return a result code using this call
+                                                                // Default: Activity.RESULT_CANCELED
             // line above instead of this: startActivity(intent)
         }
 
