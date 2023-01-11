@@ -8,10 +8,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">GeoQuiz</string>
+    <string name="cheat_button">Cheat!</string>
     <string name="correct_toast">Correct!</string>
     <string name="default_question">Your question will be here</string>
     <string name="false_button">FALSE</string>
     <string name="incorrect_toast">Incorrect!</string>
+    <string name="judgment_toast">Cheating is wrong.</string>
     <string name="nextButton_description">Next button</string>
     <string name="prevButton_description">Previous button</string>
     <string name="question_africa">The source of the Nile River is in Egypt.</string>
@@ -21,7 +23,9 @@
     <string name="question_mideast">The Suez Canal connects the Red Sea and Indian Ocean.</string>
     <string name="question_oceans">The Pacific Ocean is larger than Atlantic Ocean.</string>
     <string name="score">"Your final score is: "</string>
+    <string name="show_answer_button">Show Answer</string>
     <string name="true_button">TRUE</string>
+    <string name="warning_text">Are you sure you want to do this?</string>
     <style name="Theme.GeoQuiz" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

@@ -11,12 +11,16 @@ import androidx.lifecycle.ViewModelProviders
 
 private const val TAG = "MainActivity"
 private const val KEY_INDEX = "index"
+private const val REQUEST_CODE_CHEAT = 0    // It's sent to the child activity and then received back by the parent
+                                            // It's used when an activity starts more than one type of child activity
+                                            // and needs to know who is reporting back
 
 class MainActivity : AppCompatActivity() {
 
     private lateinit var trueButton: Button
     private lateinit var falseButton: Button
     private lateinit var nextButton: ImageButton
+    private lateinit var cheatButton: Button
     private lateinit var questionTextView: TextView
 
     // Lazily initializing: It allows you to make the property val instead of a var
@@ -35,6 +39,7 @@ class MainActivity : AppCompatActivity() {
         trueButton  = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
         nextButton = findViewById(R.id.next_button)
+        cheatButton = findViewById(R.id.cheat_button)
         questionTextView = findViewById(R.id.question_text_view)
 
         trueButton.setOnClickListener{
@@ -49,8 +54,13 @@ class MainActivity : AppCompatActivity() {
             updateQuestion()
         }
 
-        questionTextView.setOnClickListener {
-            nextButton.callOnClick()
+        cheatButton.setOnClickListener {
+            // Start CheatActivity
+            // Explicit intent (cause we start an activity in own application)
+            val answer = quizViewModel.currentQuestionAnswer
+            val intent = CheatActivity.newIntent(this@MainActivity, answer)
+            startActivityForResult(intent, REQUEST_CODE_CHEAT)
+            // line above instead of this: startActivity(intent)
         }
 
         updateQuestion()
@@ -82,7 +92,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onSaveInstanceState(savedInstanceState: Bundle) {
         super.onSaveInstanceState(savedInstanceState)
-        Log.i(TAG, "onSaveInstanceState")
+        Log.i(TAG, "onSaveInstanceState called")
         savedInstanceState.putInt(KEY_INDEX, quizViewModel.currentIndex)
     }
 

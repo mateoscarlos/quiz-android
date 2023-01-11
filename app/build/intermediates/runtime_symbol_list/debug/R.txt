@@ -2585,6 +2585,7 @@ int id allStates 0x7f08004a
 int id always 0x7f08004b
 int id animateToEnd 0x7f08004c
 int id animateToStart 0x7f08004d
+int id answer_text_view 0x7f0801e0
 int id antiClockwise 0x7f08004e
 int id anticipate 0x7f08004f
 int id arc 0x7f080050
@@ -2616,6 +2617,7 @@ int id center_vertical 0x7f080069
 int id chain 0x7f08006a
 int id chain2 0x7f08006b
 int id chains 0x7f08006c
+int id cheat_button 0x7f0801e1
 int id checkbox 0x7f08006d
 int id checked 0x7f08006e
 int id chip 0x7f08006f
@@ -2882,6 +2884,7 @@ int id shortcut 0x7f080173
 int id showCustom 0x7f080174
 int id showHome 0x7f080175
 int id showTitle 0x7f080176
+int id show_answer_button 0x7f0801e2
 int id sin 0x7f080177
 int id skipCollapsed 0x7f080178
 int id skipped 0x7f080179
@@ -3072,6 +3075,7 @@ int layout abc_search_dropdown_item_icons_2line 0x7f0b0018
 int layout abc_search_view 0x7f0b0019
 int layout abc_select_dialog_material 0x7f0b001a
 int layout abc_tooltip 0x7f0b001b
+int layout activity_cheat 0x7f0b0074
 int layout activity_main 0x7f0b001c
 int layout custom_dialog 0x7f0b001d
 int layout design_bottom_navigation_item 0x7f0b001e
@@ -3200,6 +3204,7 @@ int string bottomsheet_action_expand_halfway 0x7f0f001f
 int string character_counter_content_description 0x7f0f0020
 int string character_counter_overflowed_content_description 0x7f0f0021
 int string character_counter_pattern 0x7f0f0022
+int string cheat_button 0x7f0f0092
 int string chip_text 0x7f0f0023
 int string clear_text_end_icon_content_description 0x7f0f0024
 int string correct_toast 0x7f0f0025
@@ -3213,6 +3218,7 @@ int string hide_bottom_view_on_scroll_behavior 0x7f0f002c
 int string icon_content_description 0x7f0f002d
 int string incorrect_toast 0x7f0f002e
 int string item_view_role_description 0x7f0f002f
+int string judgment_toast 0x7f0f0093
 int string m3_ref_typeface_brand_display_regular 0x7f0f0030
 int string m3_ref_typeface_brand_medium 0x7f0f0031
 int string m3_ref_typeface_brand_regular 0x7f0f0032
@@ -3309,8 +3315,10 @@ int string question_mideast 0x7f0f008c
 int string question_oceans 0x7f0f008d
 int string score 0x7f0f008e
 int string search_menu_title 0x7f0f008f
+int string show_answer_button 0x7f0f0094
 int string status_bar_notification_info_overflow 0x7f0f0090
 int string true_button 0x7f0f0091
+int string warning_text 0x7f0f0095
 int style AlertDialog_AppCompat 0x7f100000
 int style AlertDialog_AppCompat_Light 0x7f100001
 int style AndroidThemeColorAccentYellow 0x7f100002
