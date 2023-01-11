@@ -9,7 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 
 private const val EXTRA_ANSWER = "com.bignerdranch.android.geoquiz.answer_is_true"
-private const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_shown"
+public const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_shown"
 
 private lateinit var answerTextView: TextView
 private lateinit var showAnswerButton: Button
@@ -39,7 +39,7 @@ class CheatActivity : AppCompatActivity() {
 
     }
 
-    // It sends to MainActivity that the answer was shown.
+    // It sends back that the answer was shown.
     private fun setAnswerShownResult(isAnswerShown: Boolean) {
         val data = Intent().apply {
             putExtra(EXTRA_ANSWER_SHOWN, isAnswerShown)

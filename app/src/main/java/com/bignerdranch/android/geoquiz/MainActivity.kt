@@ -1,5 +1,7 @@
 package com.bignerdranch.android.geoquiz
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -67,28 +69,35 @@ class MainActivity : AppCompatActivity() {
         updateQuestion()
     }
 
+    override fun onActivityResult(requestCode: Int,
+                                  resultCode: Int,
+                                  data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (resultCode != Activity.RESULT_OK) {
+            return
+        }
+        if (requestCode == REQUEST_CODE_CHEAT) {
+            quizViewModel.isCheater =
+                data?.getBooleanExtra(EXTRA_ANSWER_SHOWN, false) ?: false
+        }
+    }
+
     private fun updateQuestion() {
         val questionTextResId = quizViewModel.currentQuestionText
         questionTextView.setText(questionTextResId)
     }
 
     // This function check the user answer and get the correspondent toast
-    private fun checkAnswer(userAnswer : Boolean) : Boolean {
+    private fun checkAnswer(userAnswer : Boolean) {
         val correctAnswer = quizViewModel.currentQuestionAnswer
-        val answer : Boolean
-        val messageResId : Int
 
-        if (userAnswer == correctAnswer) {
-            messageResId = R.string.correct_toast
-            answer = true // Answer is correct
-        } else {
-            messageResId = R.string.incorrect_toast
-            answer = false // Answer is incorrect
+        val messageResId = when {
+            quizViewModel.isCheater -> R.string.judgment_toast
+            userAnswer == correctAnswer -> R.string.correct_toast
+            else -> R.string.incorrect_toast
         }
 
         Toast.makeText(this, messageResId, Toast.LENGTH_SHORT).show()
-
-        return answer
     }
 
     override fun onSaveInstanceState(savedInstanceState: Bundle) {
