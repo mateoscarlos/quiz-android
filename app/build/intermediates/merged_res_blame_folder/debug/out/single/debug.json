@@ -12,10 +12,6 @@
         "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/layout_activity_cheat.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/layout/activity_cheat.xml"
-    },
-    {
         "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-pngs-21:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -62,6 +58,10 @@
     {
         "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-hdpi_arrow_left.png.flat",
         "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-hdpi\\arrow_left.png"
+    },
+    {
+        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/layout_activity_main.xml.flat",
+        "source": "com.bignerdranch.android.geoquiz.app-main-28:/layout/activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xxhdpi_arrow_left.png.flat",

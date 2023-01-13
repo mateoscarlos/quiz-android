@@ -10,22 +10,24 @@ import android.widget.TextView
 
 private const val EXTRA_ANSWER = "com.bignerdranch.android.geoquiz.answer_is_true"
 public const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_shown"
-
-private lateinit var answerTextView: TextView
-private lateinit var showAnswerButton: Button
-
-private var answer = false;
+public const val EXTRA_INDEX_SHOWN = "com.bignerdranch.android.geoquiz.index_shown"
 
 class CheatActivity : AppCompatActivity() {
+
+    private lateinit var answerTextView: TextView
+    private lateinit var showAnswerButton: Button
+
+    private var answer = false
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cheat)
 
-        // intent -> Return the intent that started this activity (Activity.getIntent())
-        answer = intent.getBooleanExtra(EXTRA_ANSWER, false)
-
         answerTextView = findViewById(R.id.answer_text_view)
         showAnswerButton = findViewById(R.id.show_answer_button)
+
+        // intent -> Return the intent that started this activity (Activity.getIntent())
+        answer = intent.getBooleanExtra(EXTRA_ANSWER, false)
 
         showAnswerButton.setOnClickListener {
             val answerText = when {
@@ -47,7 +49,7 @@ class CheatActivity : AppCompatActivity() {
         setResult(Activity.RESULT_OK, data)
     }
 
-    companion object {
+    public companion object {
         // Will be call when the parent Activity starts 'this'. It send
         fun newIntent(packageContext: Context, answer: Boolean) : Intent {
             // Intent(Context, Class)   ->  Class: Activity class that the Activity Manager should start

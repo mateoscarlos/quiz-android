@@ -1,13 +1,8 @@
 package com.bignerdranch.android.geoquiz
 
-import android.content.Intent
 import androidx.lifecycle.ViewModel
 
-
 class QuizViewModel : ViewModel() {
-
-    var currentIndex = 0
-    var isCheater = false
 
     private val questionBank = listOf(
         Question(R.string.question_australia, true),
@@ -18,14 +13,17 @@ class QuizViewModel : ViewModel() {
         Question(R.string.question_asia, true)
     )
 
-    val currentQuestionAnswer: Boolean
-        get() = questionBank[currentIndex].answer
+    public var currentIndex = 0
+    public var isCheater = Array(questionBank.size) { false }
 
-    val currentQuestionText: Int
+
+    public val currentQuestionText: Int
         get() = questionBank[currentIndex].textResId
 
-    fun moveToNext() {
+    public val currentQuestionAnswer: Boolean
+        get() = questionBank[currentIndex].answer
+
+    public fun moveToNext() {
         currentIndex = (currentIndex + 1) % questionBank.size
     }
-
 }
