@@ -10,7 +10,6 @@ import android.widget.TextView
 
 private const val EXTRA_ANSWER = "com.bignerdranch.android.geoquiz.answer_is_true"
 public const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_shown"
-public const val EXTRA_INDEX_SHOWN = "com.bignerdranch.android.geoquiz.index_shown"
 
 class CheatActivity : AppCompatActivity() {
 

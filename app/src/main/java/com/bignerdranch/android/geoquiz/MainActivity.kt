@@ -13,6 +13,7 @@ import androidx.lifecycle.ViewModelProviders
 
 private const val TAG = "MainActivity"
 private const val KEY_INDEX = "index"
+private const val KEY_CHEATER = "cheater"
 private const val REQUEST_CODE_CHEAT = 0    // It's sent to the child activity and then received back by the parent
                                             // It's used when an activity starts more than one type of child activity
                                             // and needs to know who is reporting back
@@ -38,6 +39,9 @@ class MainActivity : AppCompatActivity() {
         // If there is any old index in savedInstanceState, we recover it, otherwise, we get 0
         val currentIndex = savedInstanceState?.getInt(KEY_INDEX, 0) ?: 0
         quizViewModel.currentIndex = currentIndex
+        val isCheater = savedInstanceState?.getBooleanArray(KEY_CHEATER) ?: quizViewModel.isCheater
+        quizViewModel.isCheater = isCheater
+
 
         trueButton  = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
@@ -74,6 +78,7 @@ class MainActivity : AppCompatActivity() {
         super.onSaveInstanceState(savedInstanceState)
         Log.i(TAG, "onSaveInstanceState called")
         savedInstanceState.putInt(KEY_INDEX, quizViewModel.currentIndex)
+        savedInstanceState.putBooleanArray(KEY_CHEATER, quizViewModel.isCheater)
     }
 
     override fun onActivityResult(requestCode: Int,

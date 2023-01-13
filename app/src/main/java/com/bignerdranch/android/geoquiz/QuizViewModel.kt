@@ -14,8 +14,7 @@ class QuizViewModel : ViewModel() {
     )
 
     public var currentIndex = 0
-    public var isCheater = Array(questionBank.size) { false }
-
+    public var isCheater = BooleanArray(questionBank.size) { false }
 
     public val currentQuestionText: Int
         get() = questionBank[currentIndex].textResId
