@@ -3,6 +3,7 @@ package com.bignerdranch.android.geoquiz
 import android.app.Activity
 import android.content.Context
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -14,6 +15,7 @@ public const val EXTRA_ANSWER_SHOWN = "com.bignerdranch.android.geoquiz.answer_s
 class CheatActivity : AppCompatActivity() {
 
     private lateinit var answerTextView: TextView
+    private lateinit var apiLevelTextView: TextView
     private lateinit var showAnswerButton: Button
 
     private var answer = false
@@ -24,6 +26,10 @@ class CheatActivity : AppCompatActivity() {
 
         answerTextView = findViewById(R.id.answer_text_view)
         showAnswerButton = findViewById(R.id.show_answer_button)
+        apiLevelTextView = findViewById(R.id.apiLevel_text_view)
+
+        val buildNumber = Build.VERSION.SDK_INT.toString()
+        apiLevelTextView.text = getString(R.string.api_level).plus(" ").plus(buildNumber)
 
         // intent -> Return the intent that started this activity (Activity.getIntent())
         answer = intent.getBooleanExtra(EXTRA_ANSWER, false)
@@ -35,15 +41,14 @@ class CheatActivity : AppCompatActivity() {
             }
             answerTextView.setText(answerText)
 
-            setAnswerShownResult(true)
+            setAnswerShownResult()
         }
-
     }
 
     // It sends back that the answer was shown.
-    private fun setAnswerShownResult(isAnswerShown: Boolean) {
+    private fun setAnswerShownResult() {
         val data = Intent().apply {
-            putExtra(EXTRA_ANSWER_SHOWN, isAnswerShown)
+            putExtra(EXTRA_ANSWER_SHOWN, true)
         }
         setResult(Activity.RESULT_OK, data)
     }

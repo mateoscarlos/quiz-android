@@ -1,110 +1,118 @@
 [
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xhdpi_arrow_left.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xhdpi\\arrow_left.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xxhdpi_arrow_left.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xxhdpi/arrow_left.png"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-mdpi_arrow_right.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-mdpi/arrow_right.png"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable/ic_launcher_background.xml"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xxhdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xhdpi/ic_launcher_round.webp"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xhdpi_arrow_left.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xhdpi/arrow_left.png"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/layout-land_activity_main.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/layout-land/activity_main.xml"
-    },
-    {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xxxhdpi_arrow_right.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xxxhdpi/arrow_right.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
         "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/layout_activity_cheat.xml.flat",
         "source": "com.bignerdranch.android.geoquiz.app-main-28:/layout/activity_cheat.xml"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-mdpi_arrow_left.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-mdpi\\arrow_left.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-pngs-21:\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-hdpi_arrow_right.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-hdpi/arrow_right.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xxhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-hdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-hdpi\\arrow_right.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xhdpi\\arrow_right.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xxxhdpi_arrow_left.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xxxhdpi/arrow_left.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xxhdpi\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-hdpi_arrow_left.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-hdpi\\arrow_left.png"
     },
     {
         "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/layout_activity_main.xml.flat",
         "source": "com.bignerdranch.android.geoquiz.app-main-28:/layout/activity_main.xml"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xxhdpi_arrow_left.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xxhdpi\\arrow_left.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-pngs-21:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-hdpi_arrow_left.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-hdpi/arrow_left.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xxhdpi_arrow_right.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xxhdpi/arrow_right.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-xhdpi_arrow_right.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-xhdpi/arrow_right.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xxxhdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xxxhdpi\\arrow_right.png"
     },
     {
-        "merged": "com.bignerdranch.android.geoquiz.app-merged_res-26:/drawable-mdpi_arrow_left.png.flat",
-        "source": "com.bignerdranch.android.geoquiz.app-main-28:/drawable-mdpi/arrow_left.png"
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\layout_activity_cheat.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\layout\\activity_cheat.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-xxxhdpi_arrow_left.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-xxxhdpi\\arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-merged_res-26:\\drawable-mdpi_arrow_right.png.flat",
+        "source": "C:\\Users\\Carlos\\.gradle\\daemon\\7.4\\com.bignerdranch.android.geoquiz.app-main-28:\\drawable-mdpi\\arrow_right.png"
     }
 ]

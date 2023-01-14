@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
         val isCheater = savedInstanceState?.getBooleanArray(KEY_CHEATER) ?: quizViewModel.isCheater
         quizViewModel.isCheater = isCheater
 
-
         trueButton  = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
         nextButton = findViewById(R.id.next_button)
@@ -69,14 +68,12 @@ class MainActivity : AppCompatActivity() {
             // Explicit intent (cause we start an activity in own application)
             val intent = CheatActivity.newIntent(this@MainActivity, answer)
 
-            // line above instead of this: startActivity(intent)
-
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-                val options = ActivityOptions.makeClipRevealAnimation(view, 0, 0, view.width, view.height)
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {  // M (Marshmallow): Android 6.0 in October 2015 (API 23)
+                val options = ActivityOptions.makeClipRevealAnimation(view,0,0, view.width, view.height)  // Animation added in API level 23
                 startActivityForResult(intent, REQUEST_CODE_CHEAT, options.toBundle())
             } else {
                 startActivityForResult(intent, REQUEST_CODE_CHEAT)  // Child Activity will always return a result code using this call
-                // Default: Activity.RESULT_CANCELED
+                                                                    // Default: Activity.RESULT_CANCELED
             }
         }
 

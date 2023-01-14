@@ -2589,6 +2589,7 @@ id animateToStart
 id answer_text_view
 id antiClockwise
 id anticipate
+id apiLevel_text_view
 id arc
 id asConfigured
 id async
@@ -3198,6 +3199,7 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string androidx_startup
+string api_level
 string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior

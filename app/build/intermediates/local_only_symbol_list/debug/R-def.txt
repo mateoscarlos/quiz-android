@@ -12,6 +12,7 @@ drawable arrow_right
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 id answer_text_view
+id apiLevel_text_view
 id cheat_button
 id false_button
 id next_button
@@ -22,6 +23,7 @@ layout activity_cheat
 layout activity_main
 mipmap ic_launcher
 mipmap ic_launcher_round
+string api_level
 string app_name
 string cheat_button
 string correct_toast
