@@ -2620,6 +2620,7 @@ id chain
 id chain2
 id chains
 id cheat_button
+id cheats_text_view
 id checkbox
 id checked
 id chip
@@ -3208,6 +3209,7 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string cheat_button
+string cheats_left
 string chip_text
 string clear_text_end_icon_content_description
 string correct_toast

@@ -16,6 +16,7 @@ import androidx.lifecycle.ViewModelProviders
 private const val TAG = "MainActivity"
 private const val KEY_INDEX = "index"
 private const val KEY_CHEATER = "cheater"
+private const val KEY_CHEATS_COUNTER= "counter"
 private const val REQUEST_CODE_CHEAT = 0    // It's sent to the child activity and then received back by the parent
                                             // It's used when an activity starts more than one type of child activity
                                             // and needs to know who is reporting back
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var nextButton: ImageButton
     private lateinit var cheatButton: Button
     private lateinit var questionTextView: TextView
+    private lateinit var cheatsTextView: TextView
 
     // Lazily initializing: It allows you to make the property val instead of a var
     private val quizViewModel: QuizViewModel by lazy {
@@ -43,12 +45,21 @@ class MainActivity : AppCompatActivity() {
         quizViewModel.currentIndex = currentIndex
         val isCheater = savedInstanceState?.getBooleanArray(KEY_CHEATER) ?: quizViewModel.isCheater
         quizViewModel.isCheater = isCheater
+        val cheatsCounter = savedInstanceState?.getInt(KEY_CHEATS_COUNTER, CHEATS) ?: CHEATS
+        quizViewModel.cheatsCounter = cheatsCounter
 
         trueButton  = findViewById(R.id.true_button)
         falseButton = findViewById(R.id.false_button)
         nextButton = findViewById(R.id.next_button)
         cheatButton = findViewById(R.id.cheat_button)
         questionTextView = findViewById(R.id.question_text_view)
+        cheatsTextView = findViewById(R.id.cheats_text_view)
+
+        cheatsTextView.text = cheatsCounter.toString().plus(" ").plus(getString(R.string.cheats_left))
+
+        if (cheatsCounter <= 0) {
+            cheatButton.isEnabled = false
+        }
 
         trueButton.setOnClickListener{
             checkAnswer(true)
@@ -85,6 +96,7 @@ class MainActivity : AppCompatActivity() {
         Log.i(TAG, "onSaveInstanceState called")
         savedInstanceState.putInt(KEY_INDEX, quizViewModel.currentIndex)
         savedInstanceState.putBooleanArray(KEY_CHEATER, quizViewModel.isCheater)
+        savedInstanceState.putInt(KEY_CHEATS_COUNTER, quizViewModel.cheatsCounter)
     }
 
     override fun onActivityResult(requestCode: Int,
@@ -97,6 +109,11 @@ class MainActivity : AppCompatActivity() {
         if (requestCode == REQUEST_CODE_CHEAT) {
             quizViewModel.isCheater[quizViewModel.currentIndex] =
                 data?.getBooleanExtra(EXTRA_ANSWER_SHOWN, false) ?: false
+
+            if ((--quizViewModel.cheatsCounter) <= 0) {
+                cheatButton.isEnabled = false
+            }
+            cheatsTextView.text = quizViewModel.cheatsCounter.toString().plus(" ").plus(getString(R.string.cheats_left))
         }
     }
 

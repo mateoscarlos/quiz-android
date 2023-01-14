@@ -2,6 +2,8 @@ package com.bignerdranch.android.geoquiz
 
 import androidx.lifecycle.ViewModel
 
+public const val CHEATS = 3
+
 class QuizViewModel : ViewModel() {
 
     private val questionBank = listOf(
@@ -15,6 +17,7 @@ class QuizViewModel : ViewModel() {
 
     public var currentIndex = 0
     public var isCheater = BooleanArray(questionBank.size) { false }
+    public var cheatsCounter = CHEATS
 
     public val currentQuestionText: Int
         get() = questionBank[currentIndex].textResId

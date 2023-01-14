@@ -2619,6 +2619,7 @@ int id chain 0x7f08006c
 int id chain2 0x7f08006d
 int id chains 0x7f08006e
 int id cheat_button 0x7f08006f
+int id cheats_text_view 0x7f0801e4
 int id checkbox 0x7f080070
 int id checked 0x7f080071
 int id chip 0x7f080072
@@ -3207,6 +3208,7 @@ int string character_counter_content_description 0x7f0f0021
 int string character_counter_overflowed_content_description 0x7f0f0022
 int string character_counter_pattern 0x7f0f0023
 int string cheat_button 0x7f0f0024
+int string cheats_left 0x7f0f0097
 int string chip_text 0x7f0f0025
 int string clear_text_end_icon_content_description 0x7f0f0026
 int string correct_toast 0x7f0f0027
