@@ -17,3 +17,5 @@ It is just a project where different acquired knowledge is put into practice.
 - [x] Save data in Android cache
 - [x] Android processes
 - [x] Android Exceptions, Stack Traces and Lint
+
+![GeoQuiz interface](overview.png)
