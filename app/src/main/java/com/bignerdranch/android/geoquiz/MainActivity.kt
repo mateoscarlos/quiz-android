@@ -1,7 +1,9 @@
 package com.bignerdranch.android.geoquiz
 
 import android.app.Activity
+import android.app.ActivityOptions
 import android.content.Intent
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -61,14 +63,21 @@ class MainActivity : AppCompatActivity() {
             updateQuestion()
         }
 
-        cheatButton.setOnClickListener {
+        cheatButton.setOnClickListener { view ->
             // Start CheatActivity
             val answer = quizViewModel.currentQuestionAnswer // Boolean: Correct answer
             // Explicit intent (cause we start an activity in own application)
             val intent = CheatActivity.newIntent(this@MainActivity, answer)
-            startActivityForResult(intent, REQUEST_CODE_CHEAT)  // Child Activity will always return a result code using this call
-                                                                // Default: Activity.RESULT_CANCELED
+
             // line above instead of this: startActivity(intent)
+
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+                val options = ActivityOptions.makeClipRevealAnimation(view, 0, 0, view.width, view.height)
+                startActivityForResult(intent, REQUEST_CODE_CHEAT, options.toBundle())
+            } else {
+                startActivityForResult(intent, REQUEST_CODE_CHEAT)  // Child Activity will always return a result code using this call
+                // Default: Activity.RESULT_CANCELED
+            }
         }
 
         updateQuestion()
