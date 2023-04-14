@@ -1,4 +1,4 @@
-# Android Learning Playground (Kotlin)
+# Quiz - Android
 
 This project is a non-functional Android application developed using Kotlin, primarily designed as a learning platform to apply knowledge acquired from my own. It is not intended for end users, but rather for developers who wish to explore and understand various Android concepts and best practices.
 
